@@ -4,6 +4,7 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
+let clearBtn;
 
 if (window.location.pathname === '/notes') {
   noteForm = document.querySelector('.note-form');
@@ -14,6 +15,8 @@ if (window.location.pathname === '/notes') {
   clearBtn = document.querySelector('.clear-btn');
   noteList = document.querySelectorAll('.list-container .list-group');
 }
+
+console.log({ noteForm, noteTitle, noteText, saveNoteBtn, newNoteBtn, clearBtn, noteList });
 
 // Show an element
 const show = (elem) => {
