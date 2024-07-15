@@ -76,3 +76,8 @@ body {
   padding: 20px;
   cursor: pointer;
 }
+
+.delete-note {
+  position: absolute;
+  right: 10px;
+}
