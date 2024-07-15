@@ -16,7 +16,7 @@ if (window.location.pathname === '/notes') {
   noteList = document.querySelectorAll('.list-container .list-group');
 }
 
-console.log({ noteForm, noteTitle, noteText, saveNoteBtn, newNoteBtn, clearBtn, noteList });
+console.log(noteForm, noteTitle, noteText, saveNoteBtn, newNoteBtn, noteList, clearBtn);
 
 // Show an element
 const show = (elem) => {
